@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		1209E3BF23BE025400B1D046 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1209E3BE23BE025400B1D046 /* AppDelegate.swift */; };
 		1209E3C123BE025400B1D046 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1209E3C023BE025400B1D046 /* SceneDelegate.swift */; };
-		1209E3C323BE025400B1D046 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1209E3C223BE025400B1D046 /* ViewController.swift */; };
+		1209E3C323BE025400B1D046 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1209E3C223BE025400B1D046 /* RecordSoundsViewController.swift */; };
 		1209E3C623BE025400B1D046 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1209E3C423BE025400B1D046 /* Main.storyboard */; };
 		1209E3C823BE025900B1D046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1209E3C723BE025900B1D046 /* Assets.xcassets */; };
-		1209E3CB23BE025900B1D046 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1209E3C923BE025900B1D046 /* LaunchScreen.storyboard */; };
+		1209E3D323BE1BA100B1D046 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1209E3D223BE1BA100B1D046 /* PlaySoundsViewController.swift */; };
+		1209E3D523BE5A2D00B1D046 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1209E3D423BE5A2D00B1D046 /* playsoundsviewcontroller-audio.swift */; };
+		1234E42423BF537D0002EC13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1209E3C923BE025900B1D046 /* LaunchScreen.storyboard */; };
+		124C7D0523BF918B00A1AA23 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124C7D0423BF918B00A1AA23 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1209E3BB23BE025400B1D046 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1209E3BE23BE025400B1D046 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1209E3C023BE025400B1D046 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1209E3C223BE025400B1D046 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1209E3C223BE025400B1D046 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		1209E3C523BE025400B1D046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1209E3C723BE025900B1D046 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1209E3CA23BE025900B1D046 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1209E3CC23BE025900B1D046 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1209E3D223BE1BA100B1D046 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		1209E3D423BE5A2D00B1D046 /* playsoundsviewcontroller-audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller-audio.swift"; sourceTree = "<group>"; };
+		1209E3D623BE75A200B1D046 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124C7D0423BF918B00A1AA23 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				1209E3BE23BE025400B1D046 /* AppDelegate.swift */,
 				1209E3C023BE025400B1D046 /* SceneDelegate.swift */,
-				1209E3C223BE025400B1D046 /* ViewController.swift */,
+				1209E3C223BE025400B1D046 /* RecordSoundsViewController.swift */,
+				1209E3D223BE1BA100B1D046 /* PlaySoundsViewController.swift */,
 				1209E3C423BE025400B1D046 /* Main.storyboard */,
 				1209E3C723BE025900B1D046 /* Assets.xcassets */,
 				1209E3C923BE025900B1D046 /* LaunchScreen.storyboard */,
-				1209E3CC23BE025900B1D046 /* Info.plist */,
+				1209E3D623BE75A200B1D046 /* Info.plist */,
+				1209E3D423BE5A2D00B1D046 /* playsoundsviewcontroller-audio.swift */,
+				124C7D0423BF918B00A1AA23 /* Constants.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -125,7 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1209E3CB23BE025900B1D046 /* LaunchScreen.storyboard in Resources */,
+				1234E42423BF537D0002EC13 /* LaunchScreen.storyboard in Resources */,
 				1209E3C823BE025900B1D046 /* Assets.xcassets in Resources */,
 				1209E3C623BE025400B1D046 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1209E3C323BE025400B1D046 /* ViewController.swift in Sources */,
+				1209E3C323BE025400B1D046 /* RecordSoundsViewController.swift in Sources */,
+				1209E3D523BE5A2D00B1D046 /* playsoundsviewcontroller-audio.swift in Sources */,
 				1209E3BF23BE025400B1D046 /* AppDelegate.swift in Sources */,
+				1209E3D323BE1BA100B1D046 /* PlaySoundsViewController.swift in Sources */,
 				1209E3C123BE025400B1D046 /* SceneDelegate.swift in Sources */,
+				124C7D0523BF918B00A1AA23 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
